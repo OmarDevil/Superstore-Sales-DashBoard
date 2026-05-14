@@ -4,7 +4,7 @@ An interactive sales analytics dashboard built to explore Superstore performance
 
 ## Dashboard Preview
 
-![Superstore Sales Dashboard Preview](images/dashboard-preview.svg)
+![Superstore Sales Dashboard Screenshot](images/dashboard-screenshot.png)
 
 ## Project Overview
 
@@ -29,12 +29,12 @@ The dashboard is designed to answer questions such as:
 
 ## Tools Used
 
-- Microsoft Power BI / Tableau / Excel dashboarding workflow
-- Data cleaning and transformation
+- HTML
+- CSS
+- JavaScript
+- Plotly.js
 - Data visualization
 - Business intelligence analysis
-
-> Note: Update this section with the exact tools used in the project if needed.
 
 ## Business Insights
 
@@ -51,32 +51,21 @@ The dashboard helps highlight:
 ```text
 Superstore-Sales-DashBoard/
 ├── README.md
-├── data/
-├── dashboard/
+├── index.html
 ├── images/
-│   └── dashboard-preview.svg
-└── docs/
+│   ├── dashboard-preview.svg
+│   └── dashboard-screenshot.png
+└── .github/
+    └── workflows/
+        └── update-dashboard-screenshot.yml
 ```
-
-> The folder structure above is recommended. Add screenshots, source data, and dashboard files to make the repository more complete.
-
-## Recommended Additions
-
-To make this repository stronger and more professional, consider adding:
-
-- Real dashboard screenshots in an `images/` folder
-- The final Power BI/Tableau/Excel dashboard file
-- A short project summary PDF
-- Cleaned dataset or sample dataset
-- A data dictionary explaining each column
-- A list of final insights and recommendations
 
 ## How to Use
 
 1. Clone the repository.
-2. Open the dashboard file using the relevant BI tool.
-3. Review the visuals and filters.
-4. Use the insights section to understand key business findings.
+2. Open `index.html` in your browser.
+3. Use the filters to explore sales performance by country, region, category, and date range.
+4. Review KPIs, charts, forecast, and top sales days.
 
 ## Project Goal
 
