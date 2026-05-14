@@ -4,7 +4,7 @@ An interactive sales analytics dashboard built to explore Superstore performance
 
 ## Dashboard Preview
 
-![Superstore Sales Dashboard Screenshot](images/Screenshot 2026-05-14 064430.png)
+![Superstore Sales Dashboard Screenshot](images/WebScreenshot.png)
 
 ## Project Overview
 
