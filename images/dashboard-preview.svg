@@ -1,0 +1,49 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="28" fill="#0F172A"/>
+  <rect x="40" y="40" width="1120" height="640" rx="24" fill="#F8FAFC"/>
+
+  <rect x="72" y="72" width="1056" height="86" rx="18" fill="#111827"/>
+  <text x="100" y="122" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">Superstore Sales Dashboard</text>
+  <text x="100" y="148" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#CBD5E1">Sales, profit, category, segment, and regional performance overview</text>
+
+  <rect x="72" y="184" width="248" height="116" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="96" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">Total Sales</text>
+  <text x="96" y="266" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0F172A">$2.3M</text>
+
+  <rect x="344" y="184" width="248" height="116" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="368" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">Profit</text>
+  <text x="368" y="266" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0F172A">$286K</text>
+
+  <rect x="616" y="184" width="248" height="116" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="640" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">Orders</text>
+  <text x="640" y="266" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0F172A">9.9K</text>
+
+  <rect x="888" y="184" width="240" height="116" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="912" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">Avg. Discount</text>
+  <text x="912" y="266" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0F172A">15.6%</text>
+
+  <rect x="72" y="328" width="520" height="304" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="96" y="368" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827">Sales Trend</text>
+  <polyline points="112,568 168,526 224,548 280,488 336,504 392,430 448,452 504,382 560,408" fill="none" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="112" y1="584" x2="560" y2="584" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="112" y1="404" x2="112" y2="584" stroke="#E5E7EB" stroke-width="2"/>
+
+  <rect x="616" y="328" width="248" height="304" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="640" y="368" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827">Category Sales</text>
+  <rect x="640" y="416" width="176" height="28" rx="8" fill="#2563EB"/>
+  <rect x="640" y="472" width="142" height="28" rx="8" fill="#38BDF8"/>
+  <rect x="640" y="528" width="108" height="28" rx="8" fill="#94A3B8"/>
+  <text x="640" y="404" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748B">Technology</text>
+  <text x="640" y="460" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748B">Furniture</text>
+  <text x="640" y="516" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748B">Office Supplies</text>
+
+  <rect x="888" y="328" width="240" height="304" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="912" y="368" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827">Regional Profit</text>
+  <circle cx="1008" cy="492" r="82" fill="#DBEAFE"/>
+  <path d="M1008 410 A82 82 0 0 1 1084 522 L1008 492 Z" fill="#2563EB"/>
+  <path d="M1084 522 A82 82 0 0 1 950 550 L1008 492 Z" fill="#38BDF8"/>
+  <path d="M950 550 A82 82 0 0 1 1008 410 L1008 492 Z" fill="#94A3B8"/>
+  <circle cx="1008" cy="492" r="42" fill="#FFFFFF"/>
+
+  <text x="72" y="670" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#64748B">Dashboard preview for portfolio presentation</text>
+</svg>
