@@ -1,49 +1,134 @@
-<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="720" rx="28" fill="#0F172A"/>
-  <rect x="40" y="40" width="1120" height="640" rx="24" fill="#F8FAFC"/>
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(280 -70) rotate(63) scale(860 520)">
+      <stop stop-color="#7C3AED" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1450 150) rotate(146) scale(780 520)">
+      <stop stop-color="#06B6D4" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
 
-  <rect x="72" y="72" width="1056" height="86" rx="18" fill="#111827"/>
-  <text x="100" y="122" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">Superstore Sales Dashboard</text>
-  <text x="100" y="148" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#CBD5E1">Sales, profit, category, segment, and regional performance overview</text>
+  <rect width="1440" height="900" fill="#0B1220"/>
+  <rect width="1440" height="900" fill="url(#g1)"/>
+  <rect width="1440" height="900" fill="url(#g2)"/>
 
-  <rect x="72" y="184" width="248" height="116" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
-  <text x="96" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">Total Sales</text>
-  <text x="96" y="266" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0F172A">$2.3M</text>
+  <g filter="url(#shadow)">
+    <rect x="48" y="42" width="1344" height="816" rx="24" fill="#0B1220" stroke="rgba(255,255,255,0.10)"/>
+  </g>
 
-  <rect x="344" y="184" width="248" height="116" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
-  <text x="368" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">Profit</text>
-  <text x="368" y="266" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0F172A">$286K</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="78" y="92" font-size="24" font-weight="800" fill="#E6EDF3">Global Superstore — Sales Dashboard</text>
+    <text x="78" y="118" font-size="14" fill="#9AA4B2">KPIs • Filters • 7-Day Forecast</text>
 
-  <rect x="616" y="184" width="248" height="116" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
-  <text x="640" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">Orders</text>
-  <text x="640" y="266" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0F172A">9.9K</text>
+    <g>
+      <rect x="672" y="62" width="142" height="62" rx="12" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="690" y="86" font-size="12" fill="#9AA4B2">Country</text>
+      <rect x="690" y="94" width="106" height="22" rx="6" fill="#0C1626" stroke="rgba(255,255,255,0.10)"/>
+      <text x="704" y="110" font-size="11" fill="#E6EDF3">All</text>
+    </g>
+    <g>
+      <rect x="826" y="62" width="142" height="62" rx="12" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="844" y="86" font-size="12" fill="#9AA4B2">Region</text>
+      <rect x="844" y="94" width="106" height="22" rx="6" fill="#0C1626" stroke="rgba(255,255,255,0.10)"/>
+      <text x="858" y="110" font-size="11" fill="#E6EDF3">All</text>
+    </g>
+    <g>
+      <rect x="980" y="62" width="142" height="62" rx="12" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="998" y="86" font-size="12" fill="#9AA4B2">Category</text>
+      <rect x="998" y="94" width="106" height="22" rx="6" fill="#0C1626" stroke="rgba(255,255,255,0.10)"/>
+      <text x="1012" y="110" font-size="11" fill="#E6EDF3">All</text>
+    </g>
+    <g>
+      <rect x="1134" y="62" width="118" height="62" rx="12" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="1150" y="86" font-size="12" fill="#9AA4B2">Start date</text>
+      <text x="1150" y="110" font-size="12" fill="#E6EDF3">2015-01-03</text>
+    </g>
+    <g>
+      <rect x="1262" y="62" width="96" height="62" rx="12" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="1280" y="99" font-size="13" font-weight="700" fill="#E6EDF3">Apply</text>
+    </g>
 
-  <rect x="888" y="184" width="240" height="116" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
-  <text x="912" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">Avg. Discount</text>
-  <text x="912" y="266" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0F172A">15.6%</text>
+    <g>
+      <rect x="78" y="154" width="248" height="84" rx="14" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="98" y="185" font-size="13" fill="#9AA4B2">Total Sales</text>
+      <text x="98" y="218" font-size="26" font-weight="900" fill="#E6EDF3">$2.30M</text>
+    </g>
+    <g>
+      <rect x="344" y="154" width="248" height="84" rx="14" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="364" y="185" font-size="13" fill="#9AA4B2">Orders</text>
+      <text x="364" y="218" font-size="26" font-weight="900" fill="#E6EDF3">9,994</text>
+    </g>
+    <g>
+      <rect x="610" y="154" width="248" height="84" rx="14" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="630" y="185" font-size="13" fill="#9AA4B2">AOV</text>
+      <text x="630" y="218" font-size="26" font-weight="900" fill="#E6EDF3">$230.8</text>
+    </g>
+    <g>
+      <rect x="876" y="154" width="248" height="84" rx="14" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="896" y="185" font-size="13" fill="#9AA4B2">Active Customers</text>
+      <text x="896" y="218" font-size="26" font-weight="900" fill="#E6EDF3">793</text>
+    </g>
+    <g>
+      <rect x="1142" y="154" width="216" height="84" rx="14" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="1162" y="185" font-size="13" fill="#9AA4B2">Avg Daily Sales</text>
+      <text x="1162" y="218" font-size="26" font-weight="900" fill="#E6EDF3">$1.58K</text>
+    </g>
 
-  <rect x="72" y="328" width="520" height="304" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
-  <text x="96" y="368" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827">Sales Trend</text>
-  <polyline points="112,568 168,526 224,548 280,488 336,504 392,430 448,452 504,382 560,408" fill="none" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="112" y1="584" x2="560" y2="584" stroke="#E5E7EB" stroke-width="2"/>
-  <line x1="112" y1="404" x2="112" y2="584" stroke="#E5E7EB" stroke-width="2"/>
+    <g>
+      <rect x="78" y="262" width="793" height="318" rx="16" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="108" y="302" font-size="18" font-weight="800" fill="#E6EDF3">Daily Sales Trend</text>
+      <g stroke="rgba(255,255,255,0.08)">
+        <line x1="116" y1="532" x2="832" y2="532"/><line x1="116" y1="480" x2="832" y2="480"/><line x1="116" y1="428" x2="832" y2="428"/><line x1="116" y1="376" x2="832" y2="376"/><line x1="116" y1="324" x2="832" y2="324"/>
+      </g>
+      <path d="M118 520 C170 498 194 450 248 470 C314 496 340 372 396 405 C460 443 496 340 548 362 C606 388 630 310 688 332 C744 354 774 288 830 306" fill="none" stroke="#06B6D4" stroke-width="5" stroke-linecap="round"/>
+      <path d="M118 520 C170 498 194 450 248 470 C314 496 340 372 396 405 C460 443 496 340 548 362 C606 388 630 310 688 332 C744 354 774 288 830 306 L830 532 L118 532 Z" fill="#06B6D4" opacity="0.13"/>
+    </g>
 
-  <rect x="616" y="328" width="248" height="304" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
-  <text x="640" y="368" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827">Category Sales</text>
-  <rect x="640" y="416" width="176" height="28" rx="8" fill="#2563EB"/>
-  <rect x="640" y="472" width="142" height="28" rx="8" fill="#38BDF8"/>
-  <rect x="640" y="528" width="108" height="28" rx="8" fill="#94A3B8"/>
-  <text x="640" y="404" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748B">Technology</text>
-  <text x="640" y="460" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748B">Furniture</text>
-  <text x="640" y="516" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748B">Office Supplies</text>
+    <g>
+      <rect x="891" y="262" width="467" height="318" rx="16" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="921" y="302" font-size="18" font-weight="800" fill="#E6EDF3">Sales by Category</text>
+      <text x="921" y="348" font-size="13" fill="#9AA4B2">Technology</text>
+      <rect x="921" y="360" width="346" height="26" rx="8" fill="#7C3AED"/>
+      <text x="921" y="420" font-size="13" fill="#9AA4B2">Furniture</text>
+      <rect x="921" y="432" width="284" height="26" rx="8" fill="#06B6D4"/>
+      <text x="921" y="492" font-size="13" fill="#9AA4B2">Office Supplies</text>
+      <rect x="921" y="504" width="235" height="26" rx="8" fill="#64748B"/>
+    </g>
 
-  <rect x="888" y="328" width="240" height="304" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
-  <text x="912" y="368" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827">Regional Profit</text>
-  <circle cx="1008" cy="492" r="82" fill="#DBEAFE"/>
-  <path d="M1008 410 A82 82 0 0 1 1084 522 L1008 492 Z" fill="#2563EB"/>
-  <path d="M1084 522 A82 82 0 0 1 950 550 L1008 492 Z" fill="#38BDF8"/>
-  <path d="M950 550 A82 82 0 0 1 1008 410 L1008 492 Z" fill="#94A3B8"/>
-  <circle cx="1008" cy="492" r="42" fill="#FFFFFF"/>
+    <g>
+      <rect x="78" y="604" width="390" height="210" rx="16" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="108" y="644" font-size="18" font-weight="800" fill="#E6EDF3">Regional Performance</text>
+      <circle cx="275" cy="720" r="64" fill="#172554"/>
+      <path d="M275 656 A64 64 0 0 1 332 749 L275 720 Z" fill="#06B6D4"/>
+      <path d="M332 749 A64 64 0 0 1 226 763 L275 720 Z" fill="#7C3AED"/>
+      <path d="M226 763 A64 64 0 0 1 275 656 L275 720 Z" fill="#64748B"/>
+      <circle cx="275" cy="720" r="31" fill="#0F1A2B"/>
+    </g>
 
-  <text x="72" y="670" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#64748B">Dashboard preview for portfolio presentation</text>
+    <g>
+      <rect x="488" y="604" width="468" height="210" rx="16" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="518" y="644" font-size="18" font-weight="800" fill="#E6EDF3">7-Day Forecast</text>
+      <g stroke="rgba(255,255,255,0.08)"><line x1="526" y1="766" x2="916" y2="766"/><line x1="526" y1="716" x2="916" y2="716"/><line x1="526" y1="666" x2="916" y2="666"/></g>
+      <path d="M532 758 C575 720 610 748 650 702 C690 656 728 694 768 666 C808 638 850 676 910 636" fill="none" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+      <path d="M532 778 C575 740 610 768 650 722 C690 676 728 714 768 686 C808 658 850 696 910 656" fill="none" stroke="#22C55E" stroke-opacity="0.30" stroke-width="18" stroke-linecap="round"/>
+    </g>
+
+    <g>
+      <rect x="976" y="604" width="382" height="210" rx="16" fill="#0F1A2B" stroke="rgba(255,255,255,0.10)"/>
+      <text x="1006" y="644" font-size="18" font-weight="800" fill="#E6EDF3">Top Sales Days</text>
+      <rect x="1006" y="668" width="310" height="28" rx="7" fill="#0C1626"/>
+      <rect x="1006" y="706" width="272" height="28" rx="7" fill="#0C1626"/>
+      <rect x="1006" y="744" width="238" height="28" rx="7" fill="#0C1626"/>
+      <text x="1022" y="687" font-size="12" fill="#E6EDF3">2018-11-20</text><text x="1208" y="687" font-size="12" fill="#9AA4B2">$18.4K</text>
+      <text x="1022" y="725" font-size="12" fill="#E6EDF3">2017-12-02</text><text x="1208" y="725" font-size="12" fill="#9AA4B2">$16.9K</text>
+      <text x="1022" y="763" font-size="12" fill="#E6EDF3">2016-09-08</text><text x="1208" y="763" font-size="12" fill="#9AA4B2">$15.2K</text>
+    </g>
+
+    <text x="78" y="844" font-size="12" fill="#9AA4B2">Preview generated from index.html layout: filters, KPIs, charts, forecast, and top-sales table.</text>
+  </g>
 </svg>
