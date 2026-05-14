@@ -2,6 +2,10 @@
 
 An interactive sales analytics dashboard built to explore Superstore performance, track key business metrics, and identify actionable insights across sales, profit, customer segments, categories, regions, and time periods.
 
+## Dashboard Preview
+
+![Superstore Sales Dashboard Preview](images/dashboard-preview.svg)
+
 ## Project Overview
 
 This project focuses on turning raw Superstore sales data into a clear, business-friendly dashboard that helps stakeholders understand performance trends and make data-driven decisions.
@@ -50,6 +54,7 @@ Superstore-Sales-DashBoard/
 ├── data/
 ├── dashboard/
 ├── images/
+│   └── dashboard-preview.svg
 └── docs/
 ```
 
@@ -59,7 +64,7 @@ Superstore-Sales-DashBoard/
 
 To make this repository stronger and more professional, consider adding:
 
-- Dashboard screenshots in an `images/` folder
+- Real dashboard screenshots in an `images/` folder
 - The final Power BI/Tableau/Excel dashboard file
 - A short project summary PDF
 - Cleaned dataset or sample dataset
