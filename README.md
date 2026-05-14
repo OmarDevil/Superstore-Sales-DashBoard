@@ -76,4 +76,4 @@ The main goal of this project is to demonstrate practical business intelligence 
 **Omar Ahmed**
 
 - GitHub: [OmarDevil](https://github.com/OmarDevil)
-- LinkedIn: Add your LinkedIn profile link here
+- LinkedIn: www.linkedin.com/in/its-omar
